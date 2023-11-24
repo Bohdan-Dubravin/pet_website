@@ -21,26 +21,22 @@ const config: Config = {
           500: "#FF7000",
           100: "#FFF1E6",
         },
-        dark: {
-          100: "#000000",
-          200: "#0F1117",
-          300: "#151821",
-          400: "#212734",
-          500: "#101012",
+        green: {
+          900: "#00d2ad",
+          // 800: "#00d0a9",
+          // 700: "#e4f7f5",
+          500: "#eef8f9",
+          400: "#e5f5f5",
         },
+        black: { 800: "#141d34", 500: "#3e3f41" },
+        dark: {},
         light: {
-          900: "#FFFFFF",
-          800: "#F4F6F8",
-          850: "#FDFDFD",
-          700: "#DCE3F1",
-          500: "#7B8EC8",
-          400: "#858EAD",
+          400: "#f8fafc",
         },
         "accent-blue": "#1DA1F2",
       },
       fontFamily: {
-        inter: ["var(--font-inter)"],
-        spaceGrotesk: ["var(--font-spaceGrotesk)"],
+        roboto: ["var(--font-roboto)"],
       },
       boxShadow: {
         "light-100":
