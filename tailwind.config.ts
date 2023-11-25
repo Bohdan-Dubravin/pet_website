@@ -12,14 +12,17 @@ const config: Config = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1200px",
       },
     },
     extend: {
       colors: {
         primary: {
-          500: "#FF7000",
-          100: "#FFF1E6",
+          900: "#00d2ad",
+          500: "#eef8f9",
+          400: "#e5f5f5",
+          // 500: "#FF7000",
+          // 100: "#FFF1E6",
         },
         green: {
           900: "#00d2ad",
@@ -28,7 +31,7 @@ const config: Config = {
           500: "#eef8f9",
           400: "#e5f5f5",
         },
-        black: { 800: "#141d34", 500: "#3e3f41" },
+        black: { 800: "#141d34", 500: "#4d4e50" },
         dark: {},
         light: {
           400: "#f8fafc",
@@ -36,7 +39,8 @@ const config: Config = {
         "accent-blue": "#1DA1F2",
       },
       fontFamily: {
-        roboto: ["var(--font-roboto)"],
+        nunito: ["var(--font-nunito)"],
+        montserrat: ["var(--font-montserrat)"],
       },
       boxShadow: {
         "light-100":

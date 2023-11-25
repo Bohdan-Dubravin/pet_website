@@ -1,3 +1,5 @@
+import AboutUs from "@/components/shared/landing-components/AboutUs";
+import Introduction from "@/components/shared/landing-components/Introduction";
 import NavBar from "@/components/widgets/nav-bar/NavBar";
 
 export default function Home() {
@@ -6,7 +8,10 @@ export default function Home() {
       <header>
         <NavBar />
       </header>
-      <main className="font-roboto flex min-h-screen flex-col items-center justify-between p-24"></main>
+      <main className=" min-h-screen font-nunito text-black-800">
+        <Introduction />
+        <AboutUs />
+      </main>
     </>
   );
 }

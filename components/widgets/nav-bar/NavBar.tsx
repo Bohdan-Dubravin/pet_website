@@ -9,8 +9,8 @@ const NavBar = () => {
   const pathName = usePathname();
 
   return (
-    <nav className="font-roboto  px-6 py-4">
-      <div className="flex-between mx-auto max-w-[1400px] items-center">
+    <nav className="px-6  py-4 font-nunito">
+      <div className="flex-between container mx-auto items-center">
         <Link href="/" className="flex items-center gap-1">
           <Image src="/assets/logo.svg" width={40} height={40} alt="Pet walk" />
           <p className="h2-bold  text-black-800  max-sm:hidden">Pet Walk</p>
@@ -24,8 +24,8 @@ const NavBar = () => {
               <li className="" key={link.path}>
                 <Link
                   className={clsx(
-                    "base-medium text-black-500 ml-4 border-b-2 border-transparent",
-                    { "border-green-900": isActive }
+                    "base-medium ml-4 border-b-2 border-transparent pb-2 text-black-500",
+                    { "!border-primary-900": isActive }
                   )}
                   href={link.path}
                 >
@@ -37,7 +37,7 @@ const NavBar = () => {
         </ul>
         <div className="flex items-center">
           <Image src="/assets/phone.svg" width={35} height={35} alt="phone" />
-          <a className="h3-semibold text-black-800 ml-3" href={"+38063999562"}>
+          <a className="h3-semibold ml-3 text-black-800" href={"+38063999562"}>
             +38063999562
           </a>
         </div>

@@ -1,13 +1,19 @@
 /* eslint-disable camelcase */
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Nunito, Montserrat } from "next/font/google";
 import "./globals.css";
 import React from "react";
 
-const roboto = Montserrat({
+const nunito = Nunito({
   subsets: ["cyrillic", "cyrillic-ext"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-roboto",
+  variable: "--font-nunito",
+  style: ["normal"],
+});
+const montserrat = Montserrat({
+  subsets: ["cyrillic", "cyrillic-ext"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-montserrat",
   style: ["normal"],
 });
 // const inter = Inter({ subsets: ["latin"], variable: "--font-roboto" });
@@ -29,7 +35,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} `}>{children}</body>
+      <body className={`${montserrat.variable} ${nunito.variable} `}>
+        {children}
+      </body>
     </html>
   );
 }

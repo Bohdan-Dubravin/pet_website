@@ -100,7 +100,7 @@
   }
 
   .h1-bold {
-    @apply text-[30px] font-bold leading-[42px] tracking-tighter;
+    @apply text-[50px] font-bold leading-[42px] tracking-tighter font-montserrat;
   }
 
   .h2-bold {
