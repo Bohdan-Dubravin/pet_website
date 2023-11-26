@@ -191,6 +191,10 @@
     @apply shadow-light-100 dark:shadow-none;
   }
 
+  .primary-btn {
+    @apply !base-bold !rounded-[26px] !bg-primary-900 hover:!bg-primary-900 shadow-lg hover:!bg-black-800;
+  }
+
   .primary-gradient {
     background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
   }

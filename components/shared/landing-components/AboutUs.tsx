@@ -51,14 +51,13 @@ const AboutUs = () => {
             Частину коштів від кожної прогулянки ми передаємо потребуючим
             собакам у притулку.
           </p>
-          <Button className="base-bold rounded-[22px] bg-primary-900">
+          <Button className="primary-btn">
             <a href="#form" className="base-bold">
               Замовити вигул
             </a>
           </Button>
         </div>
       </div>
-      <div className="h-80"></div>
     </section>
   );
 };
