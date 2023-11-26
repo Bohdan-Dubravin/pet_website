@@ -218,3 +218,15 @@
 .tox-statusbar__right-container {
   display: none !important;
 }
+
+body {
+  background-color: #f8fafc;
+}
+
+.before-paw:before {
+  content: "";
+  background-image: url(/assets/icons/paw.svg);
+  height: 150px;
+  width: 150px;
+  @apply absolute -left-10 -top-14  -z-10  rotate-12;
+}

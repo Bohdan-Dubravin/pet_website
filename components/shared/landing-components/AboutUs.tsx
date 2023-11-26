@@ -29,16 +29,7 @@ const AboutUs = () => {
           />
         </div>
         <div className="max-w-lg">
-          <div className="relative mb-14">
-            <Image
-              className="absolute -left-10 -top-14  -z-10  rotate-12"
-              src="/assets/icons/paw.svg"
-              width={150}
-              height={150}
-              alt="paw"
-            />
-            <h2 className="h1-bold">Про наш сервіс</h2>
-          </div>
+          <h2 className="h1-bold before-paw relative mb-14">Про наш сервіс</h2>
           <p className="base-medium mb-10">
             Наша мета проста: гуляти з нашими улюбленими собаками, зберігаючи
             найвищий ступінь надійності та довіри. <br />
