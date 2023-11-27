@@ -14,7 +14,7 @@ const HowWeWork = () => {
             <li
               key={step.title}
               className={cn(
-                "light-border-2 relative w-60  rounded-3xl bg-white px-6 pb-28 pt-14 text-center shadow-lg",
+                "border  relative w-60  rounded-3xl bg-white px-6 pb-28 pt-14 text-center shadow-lg",
                 step.additionalClasses
               )}
             >
