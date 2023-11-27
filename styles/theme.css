@@ -96,7 +96,7 @@
   }
 
   .light-border-2 {
-    @apply border-light-700 dark:border-dark-400 !important;
+    @apply border-light-700  !important;
   }
 
   .h1-bold {
@@ -104,7 +104,7 @@
   }
 
   .h2-bold {
-    @apply text-[24px] font-bold leading-[31.2px];
+    @apply text-[24px] font-bold leading-[31.2px] tracking-tighter font-montserrat;
   }
 
   .h2-semibold {
@@ -192,7 +192,7 @@
   }
 
   .primary-btn {
-    @apply !base-bold !rounded-[26px] !bg-primary-900 hover:!bg-primary-900 shadow-lg hover:!bg-black-800;
+    @apply !base-bold !rounded-[26px] !bg-primary-900 hover:!bg-primary-900 shadow-lg hover:!bg-black-800 font-montserrat;
   }
 
   .primary-gradient {

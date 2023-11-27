@@ -34,7 +34,12 @@ const config: Config = {
         black: { 800: "#141d34", 500: "#4d4e50" },
         dark: {},
         light: {
-          400: "#f8fafc",
+          900: "#FFFFFF",
+          800: "#F4F6F8",
+          850: "#FDFDFD",
+          700: "#DCE3F1",
+          500: "#7B8EC8",
+          400: "#858EAD",
         },
         "accent-blue": "#1DA1F2",
       },
