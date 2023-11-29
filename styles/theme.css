@@ -192,7 +192,8 @@
   }
 
   .primary-btn {
-    @apply !base-bold !rounded-[26px] !bg-primary-900 hover:!bg-primary-900 shadow-lg hover:!bg-black-800 font-montserrat;
+    @apply !transition-all duration-500 !base-bold !rounded-[26px] !bg-primary-900 hover:!bg-primary-900 shadow-md
+     hover:!bg-[#00d2ad] hover:shadow-light-200 text-[#f5f7f9] font-montserrat;
   }
 
   .primary-gradient {

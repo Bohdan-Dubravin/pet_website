@@ -32,12 +32,12 @@ export const steps = [
     title: "Бронювання",
     content: "Вибір дати та людини під ваші побажання, та необзідності",
     imgUrl: "/assets/images/step-2.png",
-    additionalClasses: "translate-y-16",
+    additionalClasses: "!translate-y-16",
   },
   {
     title: "Готово",
     content: "Відпочивайте, а ми подбаємо про ваших улюбленкців",
     imgUrl: "/assets/images/step-3.png",
-    additionalClasses: "translate-y-36",
+    additionalClasses: "",
   },
 ];

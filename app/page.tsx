@@ -1,4 +1,5 @@
 import AboutUs from "@/components/shared/landing-components/AboutUs";
+import Footer from "@/components/shared/landing-components/Footer";
 import HowWeWork from "@/components/shared/landing-components/HowWeWork";
 import Introduction from "@/components/shared/landing-components/Introduction";
 import Questions from "@/components/shared/landing-components/Questions";
@@ -16,7 +17,9 @@ export default function Home() {
         <AboutUs />
         <Questions />
       </main>
+
       <div className="h-80"></div>
+      <Footer />
     </>
   );
 }
